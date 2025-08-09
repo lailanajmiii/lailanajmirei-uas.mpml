@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prediksi Model</title>
+  </head>
+  <body>
+    <h2>Prediksi Menggunakan Model</h2>
+    <form method="POST" action="/">
+      <label>Masukkan data (pisahkan dengan koma):</label><br />
+      <input type="text" name="data" value="2,1,0,1,0,3,5,4,2,0,1,4,3,2,1,0,5,4,3,2" />
+      <input type="submit" value="Prediksi" />
+    </form>
+
+    <p>Hasil Prediksi: {{ prediction }}</p>
+  </body>
+</html>
